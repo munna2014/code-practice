@@ -1,21 +1,22 @@
 {
-    "configurations": [
-        {
-            "name": "Win32",
-            "includePath": [
-                "${workspaceFolder}/**"
-            ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ],
-            "windowsSdkVersion": "10.0.26100.0",
-            "compilerPath": "cl.exe",
-            "cStandard": "c17",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64"
-        }
-    ],
-    "version": 4
+  "configurations": [
+    {
+      "includePath": [
+        "${workspaceFolder}/**",
+        "C:/path/to/your/gcc/include/c++",
+        "C:/path/to/your/gcc/include/c++/x86_64-w64-mingw32",
+        "C:/path/to/your/gcc/include"
+      ],
+
+      "name": "Win32",
+      "defines": ["_DEBUG", "UNICODE", "_UNICODE"],
+
+      "windowsSdkVersion": "10.0.26100.0",
+      "compilerPath": "cl.exe",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "windows-msvc-x64"
+    }
+  ],
+  "version": 4
 }
