@@ -3,7 +3,7 @@
 #include <set>
 #include <vector>
 #include <map>
-#include<string>
+#include <string>
 using namespace std;
 
 int row[] = {1, -1, 0, 0};
@@ -115,3 +115,4 @@ int main()
     aStar(start, x, y);
     return 0;
 }
+//write a program that takes as input 2D grid map of the warehouse(0=free space, 1= obstacle). and then reads the start and goal positions(row,coloumn).now implrment A* algorithm to compute the shortest path from start to goal, avoiding obstacle. finally print the path and total cost.

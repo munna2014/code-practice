@@ -151,3 +151,7 @@ int main()
 
     return 0;
 }
+
+// write a program that takes input of number of tasks and their execution times along with the number of availabe workers.now implement genetic algorithm to find a near-optimal assignment of tasks to workers. the program should print the task distribution per worker and the makespan(i.e, time when the last worker finishes).
+// output format: worker 1: task 0 (4), task 3 (8).
+//minimum makespan : 16
